@@ -9,7 +9,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     BackgroundVideo: typeof import('./src/components/BackgroundVideo.vue')['default']
     Card: typeof import('./src/components/Card.vue')['default']
+    ElButton: typeof import('element-plus/es')['ElButton']
     ElCol: typeof import('element-plus/es')['ElCol']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
     ElImage: typeof import('element-plus/es')['ElImage']
     ElRow: typeof import('element-plus/es')['ElRow']
     RouterLink: typeof import('vue-router')['RouterLink']
