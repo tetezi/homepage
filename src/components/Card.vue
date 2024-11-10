@@ -17,6 +17,8 @@
     /* 内边距 */
     opacity: 0.6;
     /* 不透明度 */
+    box-sizing: border-box;
+    /* 怪异盒模型 */
 }
 
 .card:hover {
